@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Invoice xmlns:sig="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:sac="urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:sbc="urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionURI>urn:oasis:names:specification:ubl:dsig:enveloped:xades</ext:ExtensionURI>
+            <ext:ExtensionContent>
+                <sig:UBLDocumentSignatures>
+                    <sac:SignatureInformation>
+                        <cbc:ID>urn:oasis:names:specification:ubl:signature:1</cbc:ID>
+                        <sbc:ReferencedSignatureID>urn:oasis:names:specification:ubl:signature:Invoice</sbc:ReferencedSignatureID>
+                        <ds:Signature Id="signature">
+                            <ds:SignedInfo>
+                                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                                <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+                                <ds:Reference Id="id-doc-signed-data" URI="">
+                                    <ds:Transforms>
+                                        <ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116">
+                                            <ds:XPath>not(//ancestor-or-self::ext:UBLExtensions)</ds:XPath>
+                                        </ds:Transform>
+                                        <ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116">
+                                            <ds:XPath>not(//ancestor-or-self::cac:Signature)</ds:XPath>
+                                        </ds:Transform>
+                                        <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                                    </ds:Transforms>
+                                    <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                                    <ds:DigestValue>XEu5JFnkAvf6o9FO9q1AgiH+DYtOpB2QkJLyZejhizo=</ds:DigestValue>
+                                </ds:Reference>
+                                <ds:Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#id-xades-signed-props">
+                                    <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                                    <ds:DigestValue>2iLt4RkTCEVLBXEh1JNLHMdY+jd7RcR2FT8PvqZFXGM=</ds:DigestValue>
+                                </ds:Reference>
+                            </ds:SignedInfo>
+                            <ds:SignatureValue>BjN1J9x8VchD19NZxyDx+5KRHjkpW5qkx/yy0tTWgEn5VS2fEdKrHokv2MtZYta4RauhuP3xTQNTSQWFkXUcainDWyLHfE3Y8K1OyvW7pFv/0DhjNc/QcgRoX98hrrjpcKQuI8ATrpadsrEQRtEIScPPVtCVSPI+MFRAx8s0erfjEcmWCZ1V8tI7tVm8wUaFa5YL5rGi54dx+XYCCmrtxds1dwkB0X7GIEY4AKa//u4ZanZ3cqPZaJa4hv02aLg5H4tJxVXqRDAMc7avlR9ZjQn77k76tnEsP/dx8mxPmT2S9AcN3XaZujrMpOXb/9hMyUKQuGFXrJuDlJq4Q9yONg==</ds:SignatureValue>
+                            <ds:KeyInfo>
+                                <ds:X509Data>
+                                    <ds:X509Certificate>MIIFnTCCA4WgAwIBAgIDBicsMA0GCSqGSIb3DQEBCwUAMHUxCzAJBgNVBAYTAk1ZMQ4wDAYDVQQKEwVMSEROTTE2MDQGA1UECxMtVGVybXMgb2YgdXNlIGF0IGh0dHA6Ly93d3cucG9zZGlnaWNlcnQuY29tLm15MR4wHAYDVQQDExVUcmlhbCBMSEROTSBTdWIgQ0EgVjEwHhcNMjQxMjMwMTMzNjEyWhcNMjUwMzMwMTMzNjEyWjCBsjELMAkGA1UEBhMCTVkxJTAjBgNVBAoTHE5JUFBPTiBQSUdNRU5UIChNKSBTRE4uIEJIRC4xFDASBgNVBGETC0MzODk0NDIyMDcwMSUwIwYDVQQDExxOSVBQT04gUElHTUVOVCAoTSkgU0ROLiBCSEQuMRUwEwYDVQQFEwwxOTg3MDEwMDE0NDAxKDAmBgkqhkiG9w0BCQEWGWVpbnZvaWNpbmdAcGlnbWVudC5jb20ubXkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHX51qtGwaJ+nOPADeKBGxJH9V+oLvCbEUpDiMHd5QIIlbXZDxul/1ymH0vxuc70YUj1gXxFkhLk7n6gFl09gOIoha/m0/KypjXu1/rUyvM9P4VZv/T1QMHOsFLtZ+T3cTxZQwN1MRSOpf6M9g7pmWMkBKf7vr3XeoFdVCe1vRoPVJ15CKbycgsThplSFFba0qVx9mg25QV9dUMT3QpI9KLmogihR8v3AsQ9i3Z8CbCvmwVhAl3QGPTdpEUKOC1WawNpFKPoRosPGxaGZMW0xJ7Hf9oah7m1Cm9uqZSCUtc23DThfVsnv28/0xOM7zztyDBQaVeHDzILtlA1IjLRazAgMBAAGjgfcwgfQwHwYDVR0lBBgwFgYIKwYBBQUHAwQGCisGAQQBgjcKAwwwEQYDVR0OBAoECE1kzcYcXFApMFMGA1UdIARMMEowSAYJKwYBBAGDikUBMDswOQYIKwYBBQUHAgEWLWh0dHBzOi8vd3d3LnBvc2RpZ2ljZXJ0LmNvbS5teS9yZXBvc2l0b3J5L2NwczATBgNVHSMEDDAKgAhNf9lrtsUI0DAOBgNVHQ8BAf8EBAMCBkAwRAYDVR0fBD0wOzA5oDegNYYzaHR0cDovL3RyaWFsY3JsLnBvc2RpZ2ljZXJ0LmNvbS5teS9UcmlhbExIRE5NVjEuY3JsMA0GCSqGSIb3DQEBCwUAA4ICAQCjYgbhLr4/PIwcY7/zi2a6KC/iWMFbMgi922Byb6Zc4gWSOJK2BhDk6xyjngvavgcJ5zadgyws1iVwTB0Opuek5txXGh8X50SvUo7QlJ7DfO8OGVL1+fmahMsdjcKLCuosTORUzDAuB5+Ng/pZoPMNG8gAhXMBhXK4sKCO1pEsOvFnSVhjYqJANE1l4Sd2jF8ua2TD1Rwvb0v0tpOXV2igNgjba86LcUEQCOD5BWtpacv6xhXiZ9x7u8DxPKFfFaMWL2TidCDmT+AHFsrVxwmRi+DO7OfV68ixAHpI8JujhREi8I362/neZ8JErUqcyLzOyBdoUcpz0O5wtldeYNnjL+1p+uEXtrwnhHC2Y8mAwT32cDrqpPcvXNg6ShG3DyEwf61YKSnYKuZzhixkek0zGWVrZUKtGrC8TTzfsrOqiuO6zQg/14Y8xpCi7mN/5MQIaBItnPDhqUNrMt1LbKjpQ34tFyjNmBXiQ9Phq0UdrDzaCycienfZiizwTgOlb2GCi9vH10x3qUDNamKbe8+WhDYMwizZJmASQPuvEz47oWBuqE6vCO4h1IDo0iubG+aLsNidxPsnugOfD8H1HJpIj0gc/eLlR/Tmf6key2FwtzQJ3agzZ+ZQl769NLyKMtCUEbR/V5IxraLSeaRwLS8IwUeRAotYiIzoqZSAQHnv9A==</ds:X509Certificate>
+                                </ds:X509Data>
+                            </ds:KeyInfo>
+                            <ds:Object>
+                                <xades:QualifyingProperties Target="signature">
+                                    <xades:SignedProperties Id="id-xades-signed-props">
+                                        <xades:SignedSignatureProperties>
+                                            <xades:SigningTime>2025-02-13T21:26:47Z</xades:SigningTime>
+                                            <xades:SigningCertificate>
+                                                <xades:Cert>
+                                                    <xades:CertDigest>
+                                                        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                                                        <ds:DigestValue>UAPqqLbSem9SjpsHoEqEYErmRKI1wnqJmiWqu6OC0eg=</ds:DigestValue>
+                                                    </xades:CertDigest>
+                                                    <xades:IssuerSerial>
+                                                        <ds:X509IssuerName>CN=Trial LHDNM Sub CA V1, OU=Terms of use at http://www.posdigicert.com.my, O=LHDNM, C=MY</ds:X509IssuerName>
+                                                        <ds:X509SerialNumber>403244</ds:X509SerialNumber>
+                                                    </xades:IssuerSerial>
+                                                </xades:Cert>
+                                            </xades:SigningCertificate>
+                                        </xades:SignedSignatureProperties>
+                                    </xades:SignedProperties>
+                                </xades:QualifyingProperties>
+                            </ds:Object>
+                        </ds:Signature>
+                    </sac:SignatureInformation>
+                </sig:UBLDocumentSignatures>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:ID>CN-PPMY-01</cbc:ID>
+    <cbc:IssueDate>2025-02-12</cbc:IssueDate>
+    <cbc:IssueTime>13:31:46Z</cbc:IssueTime>
+    <cbc:InvoiceTypeCode listVersionID="1.1">02</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>MYR</cbc:DocumentCurrencyCode>
+    <cbc:TaxCurrencyCode>MYR</cbc:TaxCurrencyCode>
+    <cac:InvoicePeriod>
+        <cbc:StartDate>2025-01-01</cbc:StartDate>
+        <cbc:EndDate>2025-01-31</cbc:EndDate>
+        <cbc:Description>Monthly</cbc:Description>
+    </cac:InvoicePeriod>
+    <cac:BillingReference>
+        <cac:InvoiceDocumentReference>
+            <cbc:ID>NA</cbc:ID>
+            <cbc:UUID>NA</cbc:UUID>
+        </cac:InvoiceDocumentReference>
+    </cac:BillingReference>
+    <cac:BillingReference>
+        <cac:AdditionalDocumentReference>
+            <cbc:ID>NA</cbc:ID>
+        </cac:AdditionalDocumentReference>
+    </cac:BillingReference>
+    <cac:Signature>
+        <cbc:ID>urn:oasis:names:specification:ubl:signature:Invoice</cbc:ID>
+        <cbc:SignatureMethod>urn:oasis:names:specification:ubl:dsig:enveloped:xades</cbc:SignatureMethod>
+    </cac:Signature>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cbc:IndustryClassificationCode name="Manufacture of semi-manufactures of plastic products">22201</cbc:IndustryClassificationCode>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="TIN">C3894422070</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="BRN">198701001440</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="SST">B16-1808-21026155</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="TTX">NA</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PostalAddress>
+                <cbc:CityName>Shah Alam</cbc:CityName>
+                <cbc:PostalZone>40400</cbc:PostalZone>
+                <cbc:CountrySubentityCode>10</cbc:CountrySubentityCode>
+                <cac:AddressLine>
+                    <cbc:Line>P.T. 14533, Jalan Jenjarum 28/39A,</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>Seksyen 28, Shah Alam,</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>Selangor Darul Ehsan</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode listAgencyID="6" listID="ISO3166-1">MYS</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>NIPPON PIGMENT (M) SDN. BHD</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Telephone>+60351913030</cbc:Telephone>
+                <cbc:ElectronicMail>SL_einvoice@pigment.com.my</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="TIN">C10896049080</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="BRN">200201023268</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="SST">NA</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PostalAddress>
+                <cbc:CityName>PETALING JAYA </cbc:CityName>
+                <cbc:PostalZone>46200</cbc:PostalZone>
+                <cbc:CountrySubentityCode>10</cbc:CountrySubentityCode>
+                <cac:AddressLine>
+                    <cbc:Line>UNIT NO. T1-L09-1, LEVEL 9, PJ33, NO.3,</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>JALAN PROF. KHOO KAY KIM, SEKSYEN 13,</cbc:Line>
+                </cac:AddressLine>
+                <cac:AddressLine>
+                    <cbc:Line>46200 PETALING JAYA  SELANGOR D.E.</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode listAgencyID="6" listID="ISO3166-1">MYS</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>PANASONIC PROCUREMENT MALAYSIA SDN. BHD. (RM)</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Telephone>03-79535200</cbc:Telephone>
+                <cbc:ElectronicMail> </cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="MYR">0.00</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxAmount currencyID="MYR">0.00</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>01</cbc:ID>
+                <cac:TaxScheme>
+                    <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">OTH</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="MYR">1436.50</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="MYR">100.00</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="MYR">100.00</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="MYR">100.00</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>001</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="C62">1</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="MYR">100.00</cbc:LineExtensionAmount>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="MYR">0.00</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="MYR">1460.50</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="MYR">0.00</cbc:TaxAmount>
+                <cbc:Percent>6.00</cbc:Percent>
+                <cac:TaxCategory>
+                    <cbc:ID>E</cbc:ID>
+                    <cbc:TaxExemptionReason>test</cbc:TaxExemptionReason>
+                    <cac:TaxScheme>
+                        <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">OTH</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+            <cbc:Description>BEING PRICE ADJUSTMENT</cbc:Description>
+            <cac:CommodityClassification>
+                <cbc:ItemClassificationCode listID="CLASS">022</cbc:ItemClassificationCode>
+            </cac:CommodityClassification>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="MYR">100.00</cbc:PriceAmount>
+        </cac:Price>
+        <cac:ItemPriceExtension>
+            <cbc:Amount currencyID="MYR">100.00</cbc:Amount>
+        </cac:ItemPriceExtension>
+    </cac:InvoiceLine>
+</Invoice>
