@@ -618,6 +618,6 @@
       "SignatureMethod" : [ {
         "_" : "urn:oasis:names:specification:ubl:dsig:enveloped:xades"
       } ]
-    } ],
+    } ]
   } ]
 }
