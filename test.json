@@ -10,7 +10,7 @@
       "_" : "2025-02-13"
     } ],
     "IssueTime" : [ {
-      "_" : "04:53:48Z"
+      "_" : "10:31:36Z"
     } ],
     "InvoiceTypeCode" : [ {
       "_" : "01",
@@ -42,12 +42,6 @@
           "_" : "NA"
         } ]
       } ]
-    }, {
-      "AdditionalDocumentReference" : [ {
-        "ID" : [ {
-          "_" : "E12345678912"
-        } ]
-      } ]
     } ],
     "AdditionalDocumentReference" : [ {
       "ID" : [ {
@@ -55,27 +49,6 @@
       } ],
       "DocumentType" : [ {
         "_" : "CustomsImportForm"
-      } ]
-    }, {
-      "ID" : [ {
-        "_" : "sa313321312"
-      } ],
-      "DocumentType" : [ {
-        "_" : "213312dddddd"
-      } ],
-      "DocumentDescription" : [ {
-        "_" : "asddasdwqfd ddq"
-      } ]
-    }, {
-      "ID" : [ {
-        "_" : "E12345678912"
-      } ],
-      "DocumentType" : [ {
-        "_" : "K2"
-      } ]
-    }, {
-      "ID" : [ {
-        "_" : "CIF"
       } ]
     } ],
     "AccountingSupplierParty" : [ {
@@ -85,28 +58,28 @@
       } ],
       "Party" : [ {
         "IndustryClassificationCode" : [ {
-          "name" : "Wholesale of computer hardware, software and peripherals",
-          "_" : "46510"
+          "_" : "46510",
+          "name" : "Wholesale of computer hardware, software and peripherals"
         } ],
         "PartyIdentification" : [ {
           "ID" : [ {
-            "schemeID" : "TIN",
-            "_" : "C3894422070"
+            "_" : "C3894422070",
+            "schemeID" : "TIN"
           } ]
         }, {
           "ID" : [ {
-            "schemeID" : "BRN",
-            "_" : "198701001440"
+            "_" : "198701001440",
+            "schemeID" : "BRN"
           } ]
         }, {
           "ID" : [ {
-            "schemeID" : "SST",
-            "_" : "NA"
+            "_" : "NA",
+            "schemeID" : "SST"
           } ]
         }, {
           "ID" : [ {
-            "schemeID" : "TTX",
-            "_" : "NA"
+            "_" : "NA",
+            "schemeID" : "TTX"
           } ]
         } ],
         "PostalAddress" : [ {
@@ -134,9 +107,9 @@
           } ],
           "Country" : [ {
             "IdentificationCode" : [ {
-              "listID" : "ISO3166-1",
+              "listAgencyID" : "6",
               "_" : "MYS",
-              "listAgencyID" : "6"
+              "listID" : "ISO3166-1"
             } ]
           } ]
         } ],
@@ -182,9 +155,9 @@
           } ],
           "Country" : [ {
             "IdentificationCode" : [ {
-              "listID" : "ISO3166-1",
+              "listAgencyID" : "6",
               "_" : "MYS",
-              "listAgencyID" : "6"
+              "listID" : "ISO3166-1"
             } ]
           } ]
         } ],
@@ -195,23 +168,23 @@
         } ],
         "PartyIdentification" : [ {
           "ID" : [ {
-            "schemeID" : "TIN",
-            "_" : "C10896049080"
+            "_" : "C10896049080",
+            "schemeID" : "TIN"
           } ]
         }, {
           "ID" : [ {
-            "schemeID" : "BRN",
-            "_" : "200201023268"
+            "_" : "200201023268",
+            "schemeID" : "BRN"
           } ]
         }, {
           "ID" : [ {
-            "schemeID" : "SST",
-            "_" : "NA"
+            "_" : "NA",
+            "schemeID" : "SST"
           } ]
         }, {
           "ID" : [ {
-            "schemeID" : "TTX",
-            "_" : "NA"
+            "_" : "NA",
+            "schemeID" : "TTX"
           } ]
         } ],
         "Contact" : [ {
@@ -256,21 +229,21 @@
           } ],
           "Country" : [ {
             "IdentificationCode" : [ {
-              "listID" : "ISO3166-1",
+              "listAgencyID" : "6",
               "_" : "MYS",
-              "listAgencyID" : "6"
+              "listID" : "ISO3166-1"
             } ]
           } ]
         } ],
         "PartyIdentification" : [ {
           "ID" : [ {
-            "schemeID" : "TIN",
-            "_" : "C10896049080"
+            "_" : "C10896049080",
+            "schemeID" : "TIN"
           } ]
         }, {
           "ID" : [ {
-            "schemeID" : "BRN",
-            "_" : "200201023268"
+            "_" : "200201023268",
+            "schemeID" : "BRN"
           } ]
         } ]
       } ],
@@ -286,8 +259,8 @@
             "_" : "Service charge"
           } ],
           "Amount" : [ {
-            "currencyID" : "MYR",
-            "_" : 100
+            "_" : 100,
+            "currencyID" : "MYR"
           } ]
         } ]
       } ]
@@ -312,8 +285,8 @@
         "_" : "E12345678912"
       } ],
       "PaidAmount" : [ {
-        "currencyID" : "MYR",
-        "_" : 1
+        "_" : 1,
+        "currencyID" : "MYR"
       } ],
       "PaidDate" : [ {
         "_" : "2024-07-23"
@@ -330,8 +303,8 @@
         "_" : "Sample Description"
       } ],
       "Amount" : [ {
-        "currencyID" : "MYR",
-        "_" : 100
+        "_" : 100,
+        "currencyID" : "MYR"
       } ]
     }, {
       "ChargeIndicator" : [ {
@@ -341,23 +314,23 @@
         "_" : "Service charge"
       } ],
       "Amount" : [ {
-        "currencyID" : "MYR",
-        "_" : 100
+        "_" : 100,
+        "currencyID" : "MYR"
       } ]
     } ],
     "TaxTotal" : [ {
       "TaxAmount" : [ {
-        "currencyID" : "MYR",
-        "_" : 87.63
+        "_" : 87.63,
+        "currencyID" : "MYR"
       } ],
       "TaxSubtotal" : [ {
         "TaxableAmount" : [ {
-          "currencyID" : "MYR",
-          "_" : 87.63
+          "_" : 87.63,
+          "currencyID" : "MYR"
         } ],
         "TaxAmount" : [ {
-          "currencyID" : "MYR",
-          "_" : 87.63
+          "_" : 87.63,
+          "currencyID" : "MYR"
         } ],
         "TaxCategory" : [ {
           "ID" : [ {
@@ -365,9 +338,9 @@
           } ],
           "TaxScheme" : [ {
             "ID" : [ {
-              "schemeAgencyID" : "6",
+              "_" : "OTH",
               "schemeID" : "UN/ECE 5153",
-              "_" : "OTH"
+              "schemeAgencyID" : "6"
             } ]
           } ]
         } ]
@@ -375,32 +348,32 @@
     } ],
     "LegalMonetaryTotal" : [ {
       "LineExtensionAmount" : [ {
-        "currencyID" : "MYR",
-        "_" : 1436.5
+        "_" : 1436.5,
+        "currencyID" : "MYR"
       } ],
       "TaxExclusiveAmount" : [ {
-        "currencyID" : "MYR",
-        "_" : 1436.5
+        "_" : 1436.5,
+        "currencyID" : "MYR"
       } ],
       "TaxInclusiveAmount" : [ {
-        "currencyID" : "MYR",
-        "_" : 1436.5
+        "_" : 1436.5,
+        "currencyID" : "MYR"
       } ],
       "AllowanceTotalAmount" : [ {
-        "currencyID" : "MYR",
-        "_" : 1436.5
+        "_" : 1436.5,
+        "currencyID" : "MYR"
       } ],
       "ChargeTotalAmount" : [ {
-        "currencyID" : "MYR",
-        "_" : 1436.5
+        "_" : 1436.5,
+        "currencyID" : "MYR"
       } ],
       "PayableRoundingAmount" : [ {
-        "currencyID" : "MYR",
-        "_" : 0.3
+        "_" : 0.3,
+        "currencyID" : "MYR"
       } ],
       "PayableAmount" : [ {
-        "currencyID" : "MYR",
-        "_" : 1436.5
+        "_" : 1436.5,
+        "currencyID" : "MYR"
       } ]
     } ],
     "InvoiceLine" : [ {
@@ -412,8 +385,8 @@
         "unitCode" : "C62"
       } ],
       "LineExtensionAmount" : [ {
-        "currencyID" : "MYR",
-        "_" : 1436.5
+        "_" : 1436.5,
+        "currencyID" : "MYR"
       } ],
       "AllowanceCharge" : [ {
         "ChargeIndicator" : [ {
@@ -426,8 +399,8 @@
           "_" : 0.15
         } ],
         "Amount" : [ {
-          "currencyID" : "MYR",
-          "_" : 100
+          "_" : 100,
+          "currencyID" : "MYR"
         } ]
       }, {
         "ChargeIndicator" : [ {
@@ -440,23 +413,23 @@
           "_" : 0.1
         } ],
         "Amount" : [ {
-          "currencyID" : "MYR",
-          "_" : 100
+          "_" : 100,
+          "currencyID" : "MYR"
         } ]
       } ],
       "TaxTotal" : [ {
         "TaxAmount" : [ {
-          "currencyID" : "MYR",
-          "_" : 1460.5
+          "_" : 1460.5,
+          "currencyID" : "MYR"
         } ],
         "TaxSubtotal" : [ {
           "TaxableAmount" : [ {
-            "currencyID" : "MYR",
-            "_" : 1460.5
+            "_" : 1460.5,
+            "currencyID" : "MYR"
           } ],
           "TaxAmount" : [ {
-            "currencyID" : "MYR",
-            "_" : 1460.5
+            "_" : 1460.5,
+            "currencyID" : "MYR"
           } ],
           "Percent" : [ {
             "_" : 6
@@ -470,9 +443,9 @@
             } ],
             "TaxScheme" : [ {
               "ID" : [ {
-                "schemeAgencyID" : "6",
+                "_" : "OTH",
                 "schemeID" : "UN/ECE 5153",
-                "_" : "OTH"
+                "schemeAgencyID" : "6"
               } ]
             } ]
           } ]
@@ -501,23 +474,15 @@
       } ],
       "Price" : [ {
         "PriceAmount" : [ {
-          "currencyID" : "MYR",
-          "_" : 17
+          "_" : 17,
+          "currencyID" : "MYR"
         } ]
       } ],
       "ItemPriceExtension" : [ {
         "Amount" : [ {
-          "currencyID" : "MYR",
-          "_" : 100
+          "_" : 100,
+          "currencyID" : "MYR"
         } ]
-      } ]
-    } ],
-    "Signature" : [ {
-      "ID" : [ {
-        "_" : "urn:oasis:names:specification:ubl:signature:Invoice"
-      } ],
-      "SignatureMethod" : [ {
-        "_" : "urn:oasis:names:specification:ubl:dsig:enveloped:xades"
       } ]
     } ],
     "UBLExtensions" : [ {
@@ -543,7 +508,7 @@
                       "Id" : "id-xades-signed-props",
                       "SignedSignatureProperties" : [ {
                         "SigningTime" : [ {
-                          "_" : "2025-02-14T12:48:48Z"
+                          "_" : "2025-02-14T18:26:36Z"
                         } ],
                         "SigningCertificate" : [ {
                           "Cert" : [ {
@@ -589,7 +554,7 @@
                   } ]
                 } ],
                 "SignatureValue" : [ {
-                  "_" : "VVrCJPr7K1OMhnyo8sgRCnKV1bOgEiF/zzHM6lK77z8PwEqUGoQXIiU/r+btqdq1svHv27ALwVLN1ojZ80iFZzNz5jBURsOGVoLmqH5YUj0bNakbfYlV2Ei0QbmczmBoPYnHSRjIvCBp1qZO1+V6QN1k1q+50bqXs0kc6tHZd2JGehr0Jva49CsA0/2/UQDfn1bVkvlJDAZf2LE8la2u2Muo2zx6es+/462leJl+YfLnZR46o4eryHDtbm8uvOXfPTD1vEhq/FlLiooWaVb1QXZxkFMxPi8jPk7rxVG9SHf4RDdP1xvFtPP/IvNnvpwa+SLTBAZhgNSuz1PcVvk6JA=="
+                  "_" : "o1kP9UTFKrFbPI195RrT7+ny286Wtd83I2u1Nru2eQcGcSksaXByRC+cfudasOrOk34QK+j08gILNReUYNcg7wWRi1xKDkzAnVf5GEVnbOZjRJUwcVPca0hh1O2idQs41WNtpFSsrgCsgZNdIy9adDx/85DDA8t/QtUAOxjfkuFiW8Wtlo0w5HPhavppZ6v8tQt0ACCtfjHLTcxkqLygzt+PcXkKo08xj6YrHeZegO0C8X7kSLSSq0Tz11TGEz9uQXJChxY70LoicvF/pNunjVmMNAtvjM+C0HCyLx+Vf4Rdjd94hM4n5DqXwKy0zgyF8jG41JC8T5i8cnrUH5B/JA=="
                 } ],
                 "SignedInfo" : [ {
                   "SignatureMethod" : [ {
@@ -604,7 +569,7 @@
                       "Algorithm" : "http://www.w3.org/2001/04/xmlenc#sha256"
                     } ],
                     "DigestValue" : [ {
-                      "_" : "jX1dG/M7EE5rxuKHZKotpp3BgcnNFxjuLVREhXqNNSk="
+                      "_" : "UggGwRrRXwqvZr5xSRSMtkHYH+yrv0qrb03wNzWrQYg="
                     } ]
                   }, {
                     "Id" : "#id-xades-signed-props",
@@ -615,7 +580,7 @@
                       "Algorithm" : "http://www.w3.org/2001/04/xmlenc#sha256"
                     } ],
                     "DigestValue" : [ {
-                      "_" : "l9vltdQr+h/qbHvTQePatzuwUYvQyEwTBsmsI1WHawk="
+                      "_" : "6ATmr6XyIdRewpPXIHsrbNS6UaYsqcmj1gVEu9rpCkY="
                     } ]
                   } ]
                 } ]
@@ -623,6 +588,14 @@
             } ]
           } ]
         } ]
+      } ]
+    } ],
+    "Signature" : [ {
+      "ID" : [ {
+        "_" : "urn:oasis:names:specification:ubl:signature:Invoice"
+      } ],
+      "SignatureMethod" : [ {
+        "_" : "urn:oasis:names:specification:ubl:dsig:enveloped:xades"
       } ]
     } ]
   } ]
